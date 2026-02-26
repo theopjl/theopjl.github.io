@@ -16,7 +16,7 @@ timezone:
 
 title: Théo Poujol # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Educational Engineer - Teaching Staff @Télécom Saint-Etienne, Graduate School of Engineering # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -27,7 +27,7 @@ url: "https://theopjl.github.io"
 
 github:
   username: theopjl # change to your GitHub username
-  
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -146,7 +146,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://theopjl.github.io"
+baseurl: "/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
