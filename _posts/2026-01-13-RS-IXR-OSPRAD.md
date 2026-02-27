@@ -257,12 +257,6 @@ python -c "from spectral_gui.devices import OSpRadDevice; d = OSpRadDevice(); pr
 - Maximum line length: 100 characters
 - Use descriptive variable names
 
-### Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
-
----
-
 ## License and Contribution
 
 ### License
