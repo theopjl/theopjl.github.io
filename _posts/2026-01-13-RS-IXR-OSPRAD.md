@@ -193,50 +193,6 @@ The GUI provides:
 
 ---
 
-## File Map / Key Modules
-
-```
-diy/
-├── spectral_gui/
-│   ├── __init__.py                   # Package initialization, exports
-│   ├── main.py                       # Application entry point, CLI args
-│   │
-│   ├── core/                         # Core abstractions
-│   │   ├── device_interface.py       # SpectralDevice ABC, enums, dataclasses
-│   │   └── measurement_result.py     # MeasurementResult, MeasurementUnit
-│   │
-│   ├── devices/                      # Device implementations
-│   │   ├── device_template.py        # Template for adding new devices
-│   │   └── osprad_device.py          # OSpRad device adapter ⭐
-│   │
-│   └── gui/                          # GUI components
-│       ├── main_window.py            # Main application window
-│       └── plot_window.py            # Spectral plotting widget
-│
-├── calibration_data.csv              # Device calibration data (required)
-├── README.md                         # This file
-└── requirements.txt                  # Python dependencies
-```
-
-### Key Files
-
-- **[osprad_device.py](spectral_gui/devices/osprad_device.py)** - Complete OSpRad implementation
-  - `OSpRadCalibration` class - Loads and validates calibration, computes wavelengths and CIE Y
-  - `OSpRadDevice` class - Implements `SpectralDevice` interface, handles serial communication
-  - Platform detection for Android vs. desktop serial libraries
-  
-- **[device_interface.py](spectral_gui/core/device_interface.py)** - Abstract base class
-  - Defines contract all devices must implement (`connect`, `measure`, `configure`, etc.)
-  - Enums for measurement types, device status
-  - Dataclasses for capabilities and settings definitions
-  
-- **[main_window.py](spectral_gui/gui/main_window.py)** - GUI controller
-  - Orchestrates device communication and UI updates
-  - Builds dynamic settings panel from device capabilities
-  - Handles measurement workflows and error display
-
----
-
 ## Calibration
 
 ### Calibration File Format
