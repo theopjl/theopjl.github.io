@@ -17,6 +17,15 @@ Python wrapper for JETI SDK version 4.8.10, compatible with Python >= 3.11
 
 This wrapper provides a Python interface to the JETI SDK for radiometric and spectroscopic measurements. It uses `ctypes` to interface with the JETI DLLs and `numpy` for data management.
 
+## Documentation
+
+Detailed documentation is available in the `docs/` directory:
+
+- [Projet Summary](https://github.com/theopjl/IXR-Jeti-SDK-Wrapper/blob/main/docs/PROJECT_SUMMARY.md)
+- [Usage Guide](https://github.com/theopjl/IXR-Jeti-SDK-Wrapper/blob/main/docs/USAGE_GUIDE.md)
+- [Comprehensive analysis of JETI examples](https://github.com/theopjl/IXR-Jeti-SDK-Wrapper/blob/main/docs/JETI_EXAMPLES_DOCUMENTATION.md)
+- [Dual Device Comparison Workflow](https://github.com/theopjl/IXR-Jeti-SDK-Wrapper/blob/main/docs/DUAL_DEVICE_COMPARISON_WORKFLOW.md)
+
 ## Features
 
 - **Object-oriented design** with separate classes for different functionality:
