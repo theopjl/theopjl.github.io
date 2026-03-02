@@ -13,6 +13,10 @@ tags: [spectroradiometer, python, wrapper, lighting, spectral analysis]
 
 Python wrapper for JETI SDK version 4.8.10, compatible with Python >= 3.11
 
+### GitHub repository link
+
+You can find the repository source **[here.](https://github.com/theopjl/IXR-Jeti-SDK-Wrapper)**
+
 ## Overview
 
 This wrapper provides a Python interface to the JETI SDK for radiometric and spectroscopic measurements. It uses `ctypes` to interface with the JETI DLLs and `numpy` for data management.
