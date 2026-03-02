@@ -10,6 +10,10 @@ tags: [spectrocolorimeter, python, wrapper, imaging, color analysis]
 
 Python wrapper for the X-Rite i1Pro SDK and ColorChecker detection tools, compatible with Python 3.11+.
 
+### GitHub repository link
+
+You can find the repository source **[here.](https://github.com/theopjl/IXR-xRite-SDK-Wrapper)**
+
 ## Documentation
 
 Detailed documentation is available in the `docs/` directory:
